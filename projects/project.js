@@ -1,4 +1,5 @@
-var main = document.querySelector('#main')
+function customCursor(){
+  var main = document.querySelector('#main')
 var crsr = document.querySelector('.cursor')
 
 main.addEventListener('mousemove', function(e) {
@@ -13,3 +14,18 @@ main.addEventListener('mouseenter', function(e) {
 main.addEventListener('mouseleave', function(e) {
   crsr.style.opacity = 0
 })
+}
+
+function toggle(){
+  const mail = document.querySelector('.mail')
+  const menu = document.querySelector('.menu')
+        const toggle = document.getElementById('toggle')
+
+        toggle.onclick = function() {
+            menu.classList.toggle('active');
+        }
+        
+}
+
+customCursor();
+toggle();
