@@ -5,9 +5,9 @@ function login(){
     var password = document.getElementById("password").value;
   
     // Example of authentication (replace with your own logic)
-    if (username === "admin" && password === "Hello@123a") {
+    if (username === "Admin" && password === "Hello@123a") {
       window.location.href = "home.html";
-    } else if (username === "admin1" && password === "Hello@123a") {
+    } else if (username === "Admin1" && password === "Hello@123a") {
       window.location.href = "home.html";
     } else {
       alert("Try again");
