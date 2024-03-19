@@ -77,7 +77,7 @@ header nav #toggle{
     background-color: black;
 }
 
-.menu a::before{
+.menu a::after{
     content: "";
     position: absolute;
     top: 100%;
@@ -87,7 +87,7 @@ header nav #toggle{
     background: orange;
     transition: .3s;
 }
-.menu a:hover::before{
+.menu a:hover::after{
     width: 100%;
 }
 

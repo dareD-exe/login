@@ -17,7 +17,6 @@ main.addEventListener('mouseleave', function(e) {
 }
 
 function toggle(){
-  const mail = document.querySelector('.mail')
   const menu = document.querySelector('.menu')
         const toggle = document.getElementById('toggle')
 
